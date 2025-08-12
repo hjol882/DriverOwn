@@ -1,0 +1,45 @@
+<div class="contenedor">
+  <form>
+    <h2>Registro de Unidad</h2>
+
+    <label>Número de Serie (VIN):</label>
+    <input type="text" name="vin" required>
+
+    <label>Placas:</label>
+    <input type="text" name="placas" required>
+
+    <label>Marca:</label>
+    <input type="text" name="marca" required>
+
+    <label>Modelo:</label>
+    <input type="text" name="modelo" required>
+
+    <label>Año:</label>
+    <input type="number" name="anio" min="1900" max="2099" required>
+
+    <label>Cliente / Conductor Asignado:</label>
+    <select name="cliente" required>
+      <option value="">Selecciona un cliente</option>
+      <!-- Aquí se llenarían dinámicamente las opciones desde tu base de datos -->
+      <option value="1">Juan Pérez</option>
+      <option value="2">María López</option>
+    </select>
+
+    <label>Estado de la Unidad:</label>
+    <select name="estado" required>
+      <option value="disponible">Disponible</option>
+      <option value="en_renta">En Renta</option>
+      <option value="siniestrado">Siniestrado</option>
+      <option value="mantenimiento">En Mantenimiento</option>
+      <option value="baja">Baja</option>
+    </select>
+
+    <label>GPS:</label>
+    <input type="text" name="gps" placeholder="Último reporte o ID de API">
+
+    <label>Historial / Comentarios:</label>
+    <textarea name="historial" placeholder="Ej. Mantenimiento reciente, cambios de piezas, etc."></textarea>
+
+    <button type="submit">Guardar Unidad</button>
+  </form>
+</div>

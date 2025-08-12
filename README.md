@@ -57,3 +57,39 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Abre tu terminal o PowerShell
+Y navega a tu carpeta del backend:
+
+cd ruta\al\proyecto\backend
+Activa el entorno virtual
+
+En PowerShell:
+
+powershell
+
+venv\Scripts\Activate.ps1
+En CMD:
+
+cmd
+
+venv\Scripts\activate.bat
+Si usas VS Code, también puedes abrir un terminal ahí y activarlo igual.
+
+Ejecuta tu servidor Flask
+Una vez activado el entorno, simplemente corre tu aplicación:
+
+
+python app.py
+Esto iniciará el backend y verás algo como:
+
+
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+
+SQLServerManager16.msc
+
+H3ctorDB2025!@
+
+windows * r
