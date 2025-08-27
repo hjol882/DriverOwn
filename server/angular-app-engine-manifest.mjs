@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/driverown',
+  basePath: '/DriverOwn',
   supportedLocales: {
   "en-US": ""
 },

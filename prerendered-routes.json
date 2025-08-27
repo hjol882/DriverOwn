@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/driverown": {},
-    "/driverown/cliente": {},
-    "/driverown/login": {},
-    "/driverown/sign_in": {},
-    "/driverown/unidad": {}
+    "/DriverOwn": {},
+    "/DriverOwn/cliente": {},
+    "/DriverOwn/login": {},
+    "/DriverOwn/sign_in": {},
+    "/DriverOwn/unidad": {}
   }
 }
